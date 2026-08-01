@@ -1,8 +1,27 @@
 aid: riverpool
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riverpool.png
 name: Riverpool
-description: Riverpool is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Riverpool (riverpool.ai) is an early-stage, pre-launch startup building what it
+  describes as the "post-modern analytics data stack" — a continuously circulating,
+  self-refreshing approach to analytics data rather than a stagnant warehouse. The
+  company was surfaced as a portfolio company of Lightspeed Venture Partners and added
+  to the API Evangelist network for enrichment. As of this pass the public site is a
+  "coming soon" landing page hosted on GitHub Pages with no launched product, developer
+  portal, API documentation, OpenAPI, SDKs, or other API surface to catalog yet. This
+  profile captures verified company identity and domain-security posture; API artifacts
+  will be added when the product and its developer surface go live.
 url: https://raw.githubusercontent.com/api-evangelist/riverpool/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Analytics
+- Data
+- Data Stack
+- Data Infrastructure
+- Startup
+- Pre-launch
 apis: []
+common:
+- type: Website
+  url: https://riverpool.ai
+  name: Riverpool Website
+- type: DomainSecurity
+  url: security/riverpool-domain-security.yml
+  name: Domain Security Posture
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
