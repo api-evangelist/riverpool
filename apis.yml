@@ -49,7 +49,6 @@ tags:
 - Data
 - Data Stack
 - Data Infrastructure
-- Startups
 - Pre-Launch
 tags_raw:
 - Company
@@ -57,7 +56,6 @@ tags_raw:
 - Data
 - Data Stack
 - Data Infrastructure
-- Startup
 - Pre-launch
 apis: []
 common:
@@ -77,3 +75,7 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Startups
+x-company-stage: pre-launch
+x-company-stage-evidence: "own tags: Startup, Pre-Launch"
